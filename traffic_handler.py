@@ -9,6 +9,11 @@ import sqlite3
 import time
 import logging
 from logging.handlers import RotatingFileHandler
+from dotenv import load_dotenv
+    
+load_dotenv()
+    
+
 logging.basicConfig(handlers=[RotatingFileHandler('runtime.log', maxBytes=100*1024*1024, backupCount=2)])
 
 TOKEN_EXTRACTABLE_HOSTS = [
