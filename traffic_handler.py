@@ -7,6 +7,10 @@ import os
 from datetime import datetime, timedelta
 import sqlite3
 import time
+import logging
+from logging.handlers import RotatingFileHandler
+logging.basicConfig(handlers=[RotatingFileHandler('runtime.log', maxBytes=100*1024*1024, backupCount=2)])
+
 TOKEN_EXTRACTABLE_HOSTS = [
     'amp-api-edge.apps.apple.com',
     'amp-api.apps.apple.com'
@@ -17,14 +21,14 @@ SAVE_BODY_HOSTS = [
 ]
 API_URL = os.getenv("IOS_SDK_SERVER_URL")
 API_TOKEN = os.getenv("IOS_SDK_SERVER_TOKEN")
-
 KEEP_LOGS_MINUTES = int(os.getenv("KEEP_LOGS_MINUTES") or 10)
+
 def sync_token(token: AppStoreToken):
     headers = { 'X-Token': API_TOKEN }
     url = API_URL + 'update-tokens'
-    # logging.info(f"Sending request to {url} with {len(tokens)} tokens...")
-    response = requests.post(url, json=token.json(),headers=headers)
-    # logging.info(f'Got response: {response.status_code}')
+    logging.info(f"Sending request to {url}...")
+    response = requests.post(url, json=[token.json()],headers=headers)
+    logging.info(f'Got response: {response.status_code}')
     return response.status_code == 200
 
 def process_token(flow: http.HTTPFlow, host: str, ip: str):
@@ -36,6 +40,7 @@ def process_token(flow: http.HTTPFlow, host: str, ip: str):
         if token_map[key].token == token.token:
             return
         token_map[key].token = token
+    logging.info('New Token! Processing...')
     sync_token(token.augment())
 
 def response(flow: http.HTTPFlow):
