@@ -23,6 +23,10 @@ API_URL = os.getenv("IOS_SDK_SERVER_URL")
 API_TOKEN = os.getenv("IOS_SDK_SERVER_TOKEN")
 KEEP_LOGS_MINUTES = int(os.getenv("KEEP_LOGS_MINUTES") or 10)
 
+if API_TOKEN == None or API_URL == None:
+    logging.error('unable to start, missing envs')
+    exit(1)
+
 def sync_token(token: AppStoreToken):
     headers = { 'X-Token': API_TOKEN }
     url = API_URL + 'update-tokens'
