@@ -17,8 +17,8 @@ SAVE_BODY_HOSTS = [
 ]
 API_URL = os.getenv("IOS_SDK_SERVER_URL")
 API_TOKEN = os.getenv("IOS_SDK_SERVER_TOKEN")
-KEEP_LOGS_MINUTES = os.getenv("KEEP_LOGS_MINUTES")
 
+KEEP_LOGS_MINUTES = int(os.getenv("KEEP_LOGS_MINUTES") or 10)
 def sync_token(token: AppStoreToken):
     headers = { 'X-Token': API_TOKEN }
     url = API_URL + 'update-tokens'
