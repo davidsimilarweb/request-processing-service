@@ -1,0 +1,148 @@
+{
+  "build": "py310h078409c_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "__osx >=11.0",
+    "python_abi 3.10.* *_cp310",
+    "python >=3.10,<3.11.0a0",
+    "python >=3.10,<3.11.0a0 *_cpython"
+  ],
+  "extracted_package_dir": "/Users/davidbatista/miniconda3/pkgs/pylsqpack-0.3.19-py310h078409c_0",
+  "files": [
+    "lib/python3.10/site-packages/pylsqpack-0.3.19.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/pylsqpack-0.3.19.dist-info/LICENSE",
+    "lib/python3.10/site-packages/pylsqpack-0.3.19.dist-info/METADATA",
+    "lib/python3.10/site-packages/pylsqpack-0.3.19.dist-info/RECORD",
+    "lib/python3.10/site-packages/pylsqpack-0.3.19.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/pylsqpack-0.3.19.dist-info/WHEEL",
+    "lib/python3.10/site-packages/pylsqpack-0.3.19.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/pylsqpack-0.3.19.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/pylsqpack/__init__.py",
+    "lib/python3.10/site-packages/pylsqpack/__init__.pyi",
+    "lib/python3.10/site-packages/pylsqpack/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/pylsqpack/_binding.abi3.so",
+    "lib/python3.10/site-packages/pylsqpack/binding.c",
+    "lib/python3.10/site-packages/pylsqpack/py.typed"
+  ],
+  "fn": "pylsqpack-0.3.19-py310h078409c_0.conda",
+  "license": "MIT AND BSD-3-Clause",
+  "link": {
+    "source": "/Users/davidbatista/miniconda3/pkgs/pylsqpack-0.3.19-py310h078409c_0",
+    "type": 1
+  },
+  "md5": "08b859ce03bd084280622e238ef7f152",
+  "name": "pylsqpack",
+  "package_tarball_full_path": "/Users/davidbatista/miniconda3/pkgs/pylsqpack-0.3.19-py310h078409c_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.10/site-packages/pylsqpack-0.3.19.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pylsqpack-0.3.19.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "5aacb36c92823d3b995ae1b32d7c42c93f079d7bec9c085bf3187df6fbdc392b",
+        "sha256_in_prefix": "5aacb36c92823d3b995ae1b32d7c42c93f079d7bec9c085bf3187df6fbdc392b",
+        "size_in_bytes": 1505
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pylsqpack-0.3.19.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "7cad465631009da6c24d70529f7410994682ff5107d6279f0bc4626fc1c175bf",
+        "sha256_in_prefix": "7cad465631009da6c24d70529f7410994682ff5107d6279f0bc4626fc1c175bf",
+        "size_in_bytes": 2079
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pylsqpack-0.3.19.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "ea74ce6439e86e096e673a54f7c763a906cb1011f1d11e70f77ea5d0d6a62c1f",
+        "sha256_in_prefix": "ea74ce6439e86e096e673a54f7c763a906cb1011f1d11e70f77ea5d0d6a62c1f",
+        "size_in_bytes": 1131
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pylsqpack-0.3.19.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pylsqpack-0.3.19.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "253a81cf279233f8b490fd74509dfefe909b39c0f30b6e07e14333e395867fee",
+        "sha256_in_prefix": "253a81cf279233f8b490fd74509dfefe909b39c0f30b6e07e14333e395867fee",
+        "size_in_bytes": 107
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pylsqpack-0.3.19.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "93607a6e42504cad6e5b5d0fb66313779d17368d655c277c21aa65fbf42355ef",
+        "sha256_in_prefix": "93607a6e42504cad6e5b5d0fb66313779d17368d655c277c21aa65fbf42355ef",
+        "size_in_bytes": 97
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pylsqpack-0.3.19.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "412f93977acc6029247e7ebb3c7e136c588e1b59294bfbfdeaee0c229c342d0d",
+        "sha256_in_prefix": "412f93977acc6029247e7ebb3c7e136c588e1b59294bfbfdeaee0c229c342d0d",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pylsqpack/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "14511d03d55db0a3d930b7dea862641247655f4771cc7d72846cbd5b42ee5b5f",
+        "sha256_in_prefix": "14511d03d55db0a3d930b7dea862641247655f4771cc7d72846cbd5b42ee5b5f",
+        "size_in_bytes": 184
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pylsqpack/__init__.pyi",
+        "path_type": "hardlink",
+        "sha256": "0ed151fcd8e07f28e637580f4f1d34cb07ef5bab979a3d4a7ed5ea9ab88a1e86",
+        "sha256_in_prefix": "0ed151fcd8e07f28e637580f4f1d34cb07ef5bab979a3d4a7ed5ea9ab88a1e86",
+        "size_in_bytes": 801
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pylsqpack/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "bfe5afd0f2fa54b55c03b28a7630cf81b97eb835e7c097a8e4fbadfe152616cf",
+        "sha256_in_prefix": "bfe5afd0f2fa54b55c03b28a7630cf81b97eb835e7c097a8e4fbadfe152616cf",
+        "size_in_bytes": 340
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pylsqpack/_binding.abi3.so",
+        "path_type": "hardlink",
+        "sha256": "bfc2262e0c84b675584a47ae36183ce894e78d534cf98c6501e0b77293c12f48",
+        "sha256_in_prefix": "bfc2262e0c84b675584a47ae36183ce894e78d534cf98c6501e0b77293c12f48",
+        "size_in_bytes": 917024
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pylsqpack/binding.c",
+        "path_type": "hardlink",
+        "sha256": "35bfaf644fb16398d79fb6ddab9d298b9905ea7cab57c23fbd3c3f3029d05945",
+        "sha256_in_prefix": "35bfaf644fb16398d79fb6ddab9d298b9905ea7cab57c23fbd3c3f3029d05945",
+        "size_in_bytes": 18049
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pylsqpack/py.typed",
+        "path_type": "hardlink",
+        "sha256": "b28c3db284f03fd4ff80401049587b19bf3ce79874e0dc2686cd967be2518193",
+        "sha256_in_prefix": "b28c3db284f03fd4ff80401049587b19bf3ce79874e0dc2686cd967be2518193",
+        "size_in_bytes": 7
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "5872bcb7e32db4d4ba58acd3f42bb9af25d41bc8e92d8573139b4113b7cbef8b",
+  "size": 93193,
+  "subdir": "osx-arm64",
+  "timestamp": 1738532012000,
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/pylsqpack-0.3.19-py310h078409c_0.conda",
+  "version": "0.3.19"
+}

@@ -1,0 +1,128 @@
+{
+  "build": "pyhd8ed1ab_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.9"
+  ],
+  "extracted_package_dir": "/Users/davidbatista/miniconda3/pkgs/publicsuffix2-2.20191221-pyhd8ed1ab_1",
+  "files": [
+    "lib/python3.10/site-packages/publicsuffix2-2.20191221.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/publicsuffix2-2.20191221.dist-info/METADATA",
+    "lib/python3.10/site-packages/publicsuffix2-2.20191221.dist-info/RECORD",
+    "lib/python3.10/site-packages/publicsuffix2-2.20191221.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/publicsuffix2-2.20191221.dist-info/WHEEL",
+    "lib/python3.10/site-packages/publicsuffix2-2.20191221.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/publicsuffix2-2.20191221.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/publicsuffix2/__init__.py",
+    "lib/python3.10/site-packages/publicsuffix2/mpl-2.0.LICENSE",
+    "lib/python3.10/site-packages/publicsuffix2/public_suffix_list.ABOUT",
+    "lib/python3.10/site-packages/publicsuffix2/public_suffix_list.dat",
+    "lib/python3.10/site-packages/publicsuffix2/__pycache__/__init__.cpython-310.pyc"
+  ],
+  "fn": "publicsuffix2-2.20191221-pyhd8ed1ab_1.conda",
+  "license": "MIT AND MPL-2.0",
+  "link": {
+    "source": "/Users/davidbatista/miniconda3/pkgs/publicsuffix2-2.20191221-pyhd8ed1ab_1",
+    "type": 1
+  },
+  "md5": "6cffc01a8288495554ad5c5935e09d25",
+  "name": "publicsuffix2",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/davidbatista/miniconda3/pkgs/publicsuffix2-2.20191221-pyhd8ed1ab_1.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/publicsuffix2-2.20191221.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/publicsuffix2-2.20191221.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "469019b1a1b6a0b36bd521c3089f2dfc85c677b4e187433f9043c01c33e6b00a",
+        "sha256_in_prefix": "469019b1a1b6a0b36bd521c3089f2dfc85c677b4e187433f9043c01c33e6b00a",
+        "size_in_bytes": 13671
+      },
+      {
+        "_path": "site-packages/publicsuffix2-2.20191221.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "2e0aede12e14d7a6fc617884844f26ced258af337f3f20a4123236ba9f650d0b",
+        "sha256_in_prefix": "2e0aede12e14d7a6fc617884844f26ced258af337f3f20a4123236ba9f650d0b",
+        "size_in_bytes": 1069
+      },
+      {
+        "_path": "site-packages/publicsuffix2-2.20191221.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/publicsuffix2-2.20191221.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "a7178d5f925db427b9f0f51260ff6ea6673b8dd44f82f4f41a6f646f5487955c",
+        "sha256_in_prefix": "a7178d5f925db427b9f0f51260ff6ea6673b8dd44f82f4f41a6f646f5487955c",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "site-packages/publicsuffix2-2.20191221.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "07d2ce63dc1537b5d1698dcb05253ecbcab01b4b3f4702a5b753decab0726253",
+        "sha256_in_prefix": "07d2ce63dc1537b5d1698dcb05253ecbcab01b4b3f4702a5b753decab0726253",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "site-packages/publicsuffix2-2.20191221.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "b6aa6967f1984c383b978647e8c257da9f3f2ddf8d4ed16504addf1aaa35a4b7",
+        "sha256_in_prefix": "b6aa6967f1984c383b978647e8c257da9f3f2ddf8d4ed16504addf1aaa35a4b7",
+        "size_in_bytes": 14
+      },
+      {
+        "_path": "site-packages/publicsuffix2/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e2bb0b7ed7b4fef90097784c442afbb0b15a9229c352172166de1c51d8f07dc6",
+        "sha256_in_prefix": "e2bb0b7ed7b4fef90097784c442afbb0b15a9229c352172166de1c51d8f07dc6",
+        "size_in_bytes": 15159
+      },
+      {
+        "_path": "site-packages/publicsuffix2/mpl-2.0.LICENSE",
+        "path_type": "hardlink",
+        "sha256": "b2462e602b8aba362f2feb5e523e5b3eb58d3a66b9f92b73eba528827773fbf0",
+        "sha256_in_prefix": "b2462e602b8aba362f2feb5e523e5b3eb58d3a66b9f92b73eba528827773fbf0",
+        "size_in_bytes": 16934
+      },
+      {
+        "_path": "site-packages/publicsuffix2/public_suffix_list.ABOUT",
+        "path_type": "hardlink",
+        "sha256": "a43bb92893ae8f9470993550571b9e2005b7a66bc73d0d381b529bd027c2e131",
+        "sha256_in_prefix": "a43bb92893ae8f9470993550571b9e2005b7a66bc73d0d381b529bd027c2e131",
+        "size_in_bytes": 309
+      },
+      {
+        "_path": "site-packages/publicsuffix2/public_suffix_list.dat",
+        "path_type": "hardlink",
+        "sha256": "76e4a8d1e76dae8db6da3829024108c02203c4e4b5a4301b5717564b05c7966d",
+        "sha256_in_prefix": "76e4a8d1e76dae8db6da3829024108c02203c4e4b5a4301b5717564b05c7966d",
+        "size_in_bytes": 218101
+      },
+      {
+        "_path": "lib/python3.10/site-packages/publicsuffix2/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "db5e0d1d214ac2253556cbb1e242900ed75a3877eac1c4a68625ba45830a5942",
+  "size": 86084,
+  "subdir": "noarch",
+  "timestamp": 1735580184000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/publicsuffix2-2.20191221-pyhd8ed1ab_1.conda",
+  "version": "2.20191221"
+}

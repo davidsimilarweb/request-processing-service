@@ -1,0 +1,120 @@
+{
+  "build": "pyhd8ed1ab_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.9"
+  ],
+  "extracted_package_dir": "/Users/davidbatista/miniconda3/pkgs/kaitaistruct-0.10-pyhd8ed1ab_1",
+  "files": [
+    "lib/python3.10/site-packages/kaitaistruct-0.10.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/kaitaistruct-0.10.dist-info/LICENSE",
+    "lib/python3.10/site-packages/kaitaistruct-0.10.dist-info/METADATA",
+    "lib/python3.10/site-packages/kaitaistruct-0.10.dist-info/RECORD",
+    "lib/python3.10/site-packages/kaitaistruct-0.10.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/kaitaistruct-0.10.dist-info/WHEEL",
+    "lib/python3.10/site-packages/kaitaistruct-0.10.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/kaitaistruct-0.10.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/kaitaistruct-0.10.dist-info/zip-safe",
+    "lib/python3.10/site-packages/kaitaistruct.py",
+    "lib/python3.10/site-packages/__pycache__/kaitaistruct.cpython-310.pyc"
+  ],
+  "fn": "kaitaistruct-0.10-pyhd8ed1ab_1.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/Users/davidbatista/miniconda3/pkgs/kaitaistruct-0.10-pyhd8ed1ab_1",
+    "type": 1
+  },
+  "md5": "fa5ce9990186f1999a77fe7e1ff76e72",
+  "name": "kaitaistruct",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/davidbatista/miniconda3/pkgs/kaitaistruct-0.10-pyhd8ed1ab_1.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/kaitaistruct-0.10.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/kaitaistruct-0.10.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "843bb18b68f7b44e6590d441b99b9d030934d92bb4c5171ab53447a292aa71af",
+        "sha256_in_prefix": "843bb18b68f7b44e6590d441b99b9d030934d92bb4c5171ab53447a292aa71af",
+        "size_in_bytes": 1076
+      },
+      {
+        "_path": "site-packages/kaitaistruct-0.10.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "ea540f161c4bc95a4af8bd0009bfbd9ff8dd2da500768bbfc1a3242429f4b876",
+        "sha256_in_prefix": "ea540f161c4bc95a4af8bd0009bfbd9ff8dd2da500768bbfc1a3242429f4b876",
+        "size_in_bytes": 2462
+      },
+      {
+        "_path": "site-packages/kaitaistruct-0.10.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "6084aa2b0ec3062c654d7fc79e161c9d1e2778564081e373e3e95366750417d0",
+        "sha256_in_prefix": "6084aa2b0ec3062c654d7fc79e161c9d1e2778564081e373e3e95366750417d0",
+        "size_in_bytes": 904
+      },
+      {
+        "_path": "site-packages/kaitaistruct-0.10.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/kaitaistruct-0.10.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "a7178d5f925db427b9f0f51260ff6ea6673b8dd44f82f4f41a6f646f5487955c",
+        "sha256_in_prefix": "a7178d5f925db427b9f0f51260ff6ea6673b8dd44f82f4f41a6f646f5487955c",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "site-packages/kaitaistruct-0.10.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "503885e69f131e0ea98191bd6bc705ccd2653a6e0145d1029a049ae5d0935bd6",
+        "sha256_in_prefix": "503885e69f131e0ea98191bd6bc705ccd2653a6e0145d1029a049ae5d0935bd6",
+        "size_in_bytes": 108
+      },
+      {
+        "_path": "site-packages/kaitaistruct-0.10.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "a9dc84a14c0c600466adb9eb57e4919f3ddbd328ecd3147f3feaf916b356fd06",
+        "sha256_in_prefix": "a9dc84a14c0c600466adb9eb57e4919f3ddbd328ecd3147f3feaf916b356fd06",
+        "size_in_bytes": 13
+      },
+      {
+        "_path": "site-packages/kaitaistruct-0.10.dist-info/zip-safe",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "site-packages/kaitaistruct.py",
+        "path_type": "hardlink",
+        "sha256": "0f2ae44273532e7d531237591ab2a836552a024060683595eae03fb4a9746a86",
+        "sha256_in_prefix": "0f2ae44273532e7d531237591ab2a836552a024060683595eae03fb4a9746a86",
+        "size_in_bytes": 17646
+      },
+      {
+        "_path": "lib/python3.10/site-packages/__pycache__/kaitaistruct.cpython-310.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "8986592c083706f7c791e6325c5cbd43c1c90df1ec2680f74beb23f0830454da",
+  "size": 12822,
+  "subdir": "noarch",
+  "timestamp": 1735059032000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/kaitaistruct-0.10-pyhd8ed1ab_1.conda",
+  "version": "0.10"
+}

@@ -1,0 +1,135 @@
+{
+  "build": "pyh534df25_3",
+  "build_number": 3,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "__osx",
+    "pyobjc-framework-cocoa",
+    "python >=3.6"
+  ],
+  "extracted_package_dir": "/Users/davidbatista/miniconda3/pkgs/pyperclip-1.8.2-pyh534df25_3",
+  "files": [
+    "lib/python3.10/site-packages/pyperclip-1.8.2.dist-info/AUTHORS.txt",
+    "lib/python3.10/site-packages/pyperclip-1.8.2.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/pyperclip-1.8.2.dist-info/LICENSE.txt",
+    "lib/python3.10/site-packages/pyperclip-1.8.2.dist-info/METADATA",
+    "lib/python3.10/site-packages/pyperclip-1.8.2.dist-info/RECORD",
+    "lib/python3.10/site-packages/pyperclip-1.8.2.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/pyperclip-1.8.2.dist-info/WHEEL",
+    "lib/python3.10/site-packages/pyperclip-1.8.2.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/pyperclip-1.8.2.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/pyperclip/__init__.py",
+    "lib/python3.10/site-packages/pyperclip/__main__.py",
+    "lib/python3.10/site-packages/pyperclip/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/pyperclip/__pycache__/__main__.cpython-310.pyc"
+  ],
+  "fn": "pyperclip-1.8.2-pyh534df25_3.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/Users/davidbatista/miniconda3/pkgs/pyperclip-1.8.2-pyh534df25_3",
+    "type": 1
+  },
+  "md5": "aca7616a492c45b55b97d1b4e882ebea",
+  "name": "pyperclip",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/davidbatista/miniconda3/pkgs/pyperclip-1.8.2-pyh534df25_3.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/pyperclip-1.8.2.dist-info/AUTHORS.txt",
+        "path_type": "hardlink",
+        "sha256": "4dc406eb461c167270ebeee83efdb54435deb24f503ffc1fbe0e1d27a9971124",
+        "sha256_in_prefix": "4dc406eb461c167270ebeee83efdb54435deb24f503ffc1fbe0e1d27a9971124",
+        "size_in_bytes": 1925
+      },
+      {
+        "_path": "site-packages/pyperclip-1.8.2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/pyperclip-1.8.2.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "f5793f4c4b281de1f2f92cdeb28e31e57e2dab802ce967b0bbd107ed5bbc2e35",
+        "sha256_in_prefix": "f5793f4c4b281de1f2f92cdeb28e31e57e2dab802ce967b0bbd107ed5bbc2e35",
+        "size_in_bytes": 1514
+      },
+      {
+        "_path": "site-packages/pyperclip-1.8.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "a076d815ccfbf01699d6537cd0144c905028691ae6254b4f00612abfc5d11899",
+        "sha256_in_prefix": "a076d815ccfbf01699d6537cd0144c905028691ae6254b4f00612abfc5d11899",
+        "size_in_bytes": 2291
+      },
+      {
+        "_path": "site-packages/pyperclip-1.8.2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "987b3d67d4c0244baa8896b8f2befa9296ba9eb53cc53aa3cb7046f6f25e5833",
+        "sha256_in_prefix": "987b3d67d4c0244baa8896b8f2befa9296ba9eb53cc53aa3cb7046f6f25e5833",
+        "size_in_bytes": 1035
+      },
+      {
+        "_path": "site-packages/pyperclip-1.8.2.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/pyperclip-1.8.2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "189eedfe4581172c1b6a02b97a8f48a14c0b5baa3239e4ca990fbd8871553714",
+        "sha256_in_prefix": "189eedfe4581172c1b6a02b97a8f48a14c0b5baa3239e4ca990fbd8871553714",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/pyperclip-1.8.2.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "786d8dd733e037771074306286d85e5b3cb9d9c16e4056ad928b48c615cb3ae2",
+        "sha256_in_prefix": "786d8dd733e037771074306286d85e5b3cb9d9c16e4056ad928b48c615cb3ae2",
+        "size_in_bytes": 97
+      },
+      {
+        "_path": "site-packages/pyperclip-1.8.2.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "95e23938f91428039a425f404ec9b7820bbe0c0ff7dc31fbeb10bf9cb18f1fe2",
+        "sha256_in_prefix": "95e23938f91428039a425f404ec9b7820bbe0c0ff7dc31fbeb10bf9cb18f1fe2",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "site-packages/pyperclip/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "22abd6b6d66b484119076c2ac9144c7a84fb7a821d3db370acc7b7bf433e689b",
+        "sha256_in_prefix": "22abd6b6d66b484119076c2ac9144c7a84fb7a821d3db370acc7b7bf433e689b",
+        "size_in_bytes": 26043
+      },
+      {
+        "_path": "site-packages/pyperclip/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "8ad20e97f97a18d1d7c7bd3b25139388d3dcbd9894df1ba1024eba764df19706",
+        "sha256_in_prefix": "8ad20e97f97a18d1d7c7bd3b25139388d3dcbd9894df1ba1024eba764df19706",
+        "size_in_bytes": 765
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pyperclip/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pyperclip/__pycache__/__main__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "026d26b5e624de4b1f1c359224f57421b7ceaaecba4ffe265b65ef6d1253f4cb",
+  "size": 16657,
+  "subdir": "noarch",
+  "timestamp": 1717316044000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/pyperclip-1.8.2-pyh534df25_3.conda",
+  "version": "1.8.2"
+}

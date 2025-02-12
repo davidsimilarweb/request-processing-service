@@ -1,0 +1,212 @@
+{
+  "build": "pyhd8ed1ab_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.9",
+    "h11 >=0.9.0,<1.0"
+  ],
+  "extracted_package_dir": "/Users/davidbatista/miniconda3/pkgs/wsproto-1.2.0-pyhd8ed1ab_1",
+  "files": [
+    "lib/python3.10/site-packages/wsproto-1.2.0.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/wsproto-1.2.0.dist-info/LICENSE",
+    "lib/python3.10/site-packages/wsproto-1.2.0.dist-info/METADATA",
+    "lib/python3.10/site-packages/wsproto-1.2.0.dist-info/RECORD",
+    "lib/python3.10/site-packages/wsproto-1.2.0.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/wsproto-1.2.0.dist-info/WHEEL",
+    "lib/python3.10/site-packages/wsproto-1.2.0.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/wsproto-1.2.0.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/wsproto/__init__.py",
+    "lib/python3.10/site-packages/wsproto/connection.py",
+    "lib/python3.10/site-packages/wsproto/events.py",
+    "lib/python3.10/site-packages/wsproto/extensions.py",
+    "lib/python3.10/site-packages/wsproto/frame_protocol.py",
+    "lib/python3.10/site-packages/wsproto/handshake.py",
+    "lib/python3.10/site-packages/wsproto/py.typed",
+    "lib/python3.10/site-packages/wsproto/typing.py",
+    "lib/python3.10/site-packages/wsproto/utilities.py",
+    "lib/python3.10/site-packages/wsproto/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/wsproto/__pycache__/connection.cpython-310.pyc",
+    "lib/python3.10/site-packages/wsproto/__pycache__/events.cpython-310.pyc",
+    "lib/python3.10/site-packages/wsproto/__pycache__/extensions.cpython-310.pyc",
+    "lib/python3.10/site-packages/wsproto/__pycache__/frame_protocol.cpython-310.pyc",
+    "lib/python3.10/site-packages/wsproto/__pycache__/handshake.cpython-310.pyc",
+    "lib/python3.10/site-packages/wsproto/__pycache__/typing.cpython-310.pyc",
+    "lib/python3.10/site-packages/wsproto/__pycache__/utilities.cpython-310.pyc"
+  ],
+  "fn": "wsproto-1.2.0-pyhd8ed1ab_1.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/Users/davidbatista/miniconda3/pkgs/wsproto-1.2.0-pyhd8ed1ab_1",
+    "type": 1
+  },
+  "md5": "2c7536a04d9c21e1dd05bd4a3b1e3a39",
+  "name": "wsproto",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/davidbatista/miniconda3/pkgs/wsproto-1.2.0-pyhd8ed1ab_1.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/wsproto-1.2.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/wsproto-1.2.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "c0329a8dbf3437b095f7f5cf4257d6bb855e07120cae8786586073ff7a699959",
+        "sha256_in_prefix": "c0329a8dbf3437b095f7f5cf4257d6bb855e07120cae8786586073ff7a699959",
+        "size_in_bytes": 1093
+      },
+      {
+        "_path": "site-packages/wsproto-1.2.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "80b544faac1c015ef4d2cda9196000c628a9c98a9e54772cfe19fc87005d38e0",
+        "sha256_in_prefix": "80b544faac1c015ef4d2cda9196000c628a9c98a9e54772cfe19fc87005d38e0",
+        "size_in_bytes": 5604
+      },
+      {
+        "_path": "site-packages/wsproto-1.2.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "7dc08bd778960509b56de69e0015ebbbedfa26757837b9935fc54dc4a80e87dc",
+        "sha256_in_prefix": "7dc08bd778960509b56de69e0015ebbbedfa26757837b9935fc54dc4a80e87dc",
+        "size_in_bytes": 1742
+      },
+      {
+        "_path": "site-packages/wsproto-1.2.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/wsproto-1.2.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "3d9504c5d7fbd548bfb28ebb417a724ae1ed0a2dfe277c2f1783912ba93f4bc5",
+        "sha256_in_prefix": "3d9504c5d7fbd548bfb28ebb417a724ae1ed0a2dfe277c2f1783912ba93f4bc5",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "site-packages/wsproto-1.2.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "287c5513cb4ced2a42927944d05e9b4796c66c624ff8079661450b99262a8673",
+        "sha256_in_prefix": "287c5513cb4ced2a42927944d05e9b4796c66c624ff8079661450b99262a8673",
+        "size_in_bytes": 103
+      },
+      {
+        "_path": "site-packages/wsproto-1.2.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "054748af02f5d73113d1f916918449d7264aac47ef0c5f4366a8e10013a2a3a6",
+        "sha256_in_prefix": "054748af02f5d73113d1f916918449d7264aac47ef0c5f4366a8e10013a2a3a6",
+        "size_in_bytes": 8
+      },
+      {
+        "_path": "site-packages/wsproto/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "cd04888cb8ef7931f0ca11807ea1bf9ff715979e214e4795eafb9a77572710e1",
+        "sha256_in_prefix": "cd04888cb8ef7931f0ca11807ea1bf9ff715979e214e4795eafb9a77572710e1",
+        "size_in_bytes": 2887
+      },
+      {
+        "_path": "site-packages/wsproto/connection.py",
+        "path_type": "hardlink",
+        "sha256": "2e1b1ba24c5952602d32c385159e39a6e6433f22173449aaed26a713bb300201",
+        "sha256_in_prefix": "2e1b1ba24c5952602d32c385159e39a6e6433f22173449aaed26a713bb300201",
+        "size_in_bytes": 6813
+      },
+      {
+        "_path": "site-packages/wsproto/events.py",
+        "path_type": "hardlink",
+        "sha256": "0d6ed843cdb7a0adcc8d71ea70fbe32738c11a4e541ae30efeba4d9ca826996f",
+        "sha256_in_prefix": "0d6ed843cdb7a0adcc8d71ea70fbe32738c11a4e541ae30efeba4d9ca826996f",
+        "size_in_bytes": 7979
+      },
+      {
+        "_path": "site-packages/wsproto/extensions.py",
+        "path_type": "hardlink",
+        "sha256": "5659e88efb02d803bbbdb524c3f4cea8282d9876f5752a655de4708cc7e30a8e",
+        "sha256_in_prefix": "5659e88efb02d803bbbdb524c3f4cea8282d9876f5752a655de4708cc7e30a8e",
+        "size_in_bytes": 11211
+      },
+      {
+        "_path": "site-packages/wsproto/frame_protocol.py",
+        "path_type": "hardlink",
+        "sha256": "079a7fc11ab9e20bd38a17a06c9dfd46438dadd86d8a9a180c4898abde417409",
+        "sha256_in_prefix": "079a7fc11ab9e20bd38a17a06c9dfd46438dadd86d8a9a180c4898abde417409",
+        "size_in_bytes": 23401
+      },
+      {
+        "_path": "site-packages/wsproto/handshake.py",
+        "path_type": "hardlink",
+        "sha256": "84fa93a35e4ca8ec5896f70d613a3e6c8cd0247b512eaf2aab68c1747773db1f",
+        "sha256_in_prefix": "84fa93a35e4ca8ec5896f70d613a3e6c8cd0247b512eaf2aab68c1747773db1f",
+        "size_in_bytes": 18036
+      },
+      {
+        "_path": "site-packages/wsproto/py.typed",
+        "path_type": "hardlink",
+        "sha256": "b28c3db284f03fd4ff80401049587b19bf3ce79874e0dc2686cd967be2518193",
+        "sha256_in_prefix": "b28c3db284f03fd4ff80401049587b19bf3ce79874e0dc2686cd967be2518193",
+        "size_in_bytes": 7
+      },
+      {
+        "_path": "site-packages/wsproto/typing.py",
+        "path_type": "hardlink",
+        "sha256": "4727fa78e840cdf6651c21442e289ac83ccda9d5d01bb24a71c6e53aa371e96a",
+        "sha256_in_prefix": "4727fa78e840cdf6651c21442e289ac83ccda9d5d01bb24a71c6e53aa371e96a",
+        "size_in_bytes": 68
+      },
+      {
+        "_path": "site-packages/wsproto/utilities.py",
+        "path_type": "hardlink",
+        "sha256": "e6a98f5d2521529d8611282f80869c67b378baa774bc18a385557bb7a5d3899c",
+        "sha256_in_prefix": "e6a98f5d2521529d8611282f80869c67b378baa774bc18a385557bb7a5d3899c",
+        "size_in_bytes": 2816
+      },
+      {
+        "_path": "lib/python3.10/site-packages/wsproto/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/wsproto/__pycache__/connection.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/wsproto/__pycache__/events.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/wsproto/__pycache__/extensions.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/wsproto/__pycache__/frame_protocol.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/wsproto/__pycache__/handshake.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/wsproto/__pycache__/typing.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/wsproto/__pycache__/utilities.cpython-310.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "37b89ef8dc05b6e06c73b60d0bc130f81d1be3a8c8eed5807c27984484ec175e",
+  "size": 26797,
+  "subdir": "noarch",
+  "timestamp": 1733060301000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/wsproto-1.2.0-pyhd8ed1ab_1.conda",
+  "version": "1.2.0"
+}

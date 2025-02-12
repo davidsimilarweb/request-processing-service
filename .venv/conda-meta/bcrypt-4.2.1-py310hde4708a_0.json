@@ -1,0 +1,142 @@
+{
+  "build": "py310hde4708a_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [
+    "__osx >=11.0"
+  ],
+  "depends": [
+    "__osx >=11.0",
+    "python_abi 3.10.* *_cp310",
+    "python >=3.10,<3.11.0a0",
+    "python >=3.10,<3.11.0a0 *_cpython"
+  ],
+  "extracted_package_dir": "/Users/davidbatista/miniconda3/pkgs/bcrypt-4.2.1-py310hde4708a_0",
+  "files": [
+    "lib/python3.10/site-packages/bcrypt-4.2.1.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/bcrypt-4.2.1.dist-info/LICENSE",
+    "lib/python3.10/site-packages/bcrypt-4.2.1.dist-info/METADATA",
+    "lib/python3.10/site-packages/bcrypt-4.2.1.dist-info/RECORD",
+    "lib/python3.10/site-packages/bcrypt-4.2.1.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/bcrypt-4.2.1.dist-info/WHEEL",
+    "lib/python3.10/site-packages/bcrypt-4.2.1.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/bcrypt-4.2.1.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/bcrypt/__init__.py",
+    "lib/python3.10/site-packages/bcrypt/__init__.pyi",
+    "lib/python3.10/site-packages/bcrypt/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/bcrypt/_bcrypt.cpython-310-darwin.so",
+    "lib/python3.10/site-packages/bcrypt/py.typed"
+  ],
+  "fn": "bcrypt-4.2.1-py310hde4708a_0.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/Users/davidbatista/miniconda3/pkgs/bcrypt-4.2.1-py310hde4708a_0",
+    "type": 1
+  },
+  "md5": "a4db0fedb2d37132a70e574c5fdb08dc",
+  "name": "bcrypt",
+  "package_tarball_full_path": "/Users/davidbatista/miniconda3/pkgs/bcrypt-4.2.1-py310hde4708a_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.10/site-packages/bcrypt-4.2.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.10/site-packages/bcrypt-4.2.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "8173d5c29b4f956d532781d2b86e4e30f83e6b7878dce18c919451d6ba707c90",
+        "sha256_in_prefix": "8173d5c29b4f956d532781d2b86e4e30f83e6b7878dce18c919451d6ba707c90",
+        "size_in_bytes": 10850
+      },
+      {
+        "_path": "lib/python3.10/site-packages/bcrypt-4.2.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "f48d6388a8460caee705f68e9beac5c5aaa87c18313fcb0f7120bc6870a3a7e2",
+        "sha256_in_prefix": "f48d6388a8460caee705f68e9beac5c5aaa87c18313fcb0f7120bc6870a3a7e2",
+        "size_in_bytes": 9807
+      },
+      {
+        "_path": "lib/python3.10/site-packages/bcrypt-4.2.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "8420b0c673ba4b2a2d7e8ba468c68303f1bf0c138429cccdf7df6feb2a668282",
+        "sha256_in_prefix": "8420b0c673ba4b2a2d7e8ba468c68303f1bf0c138429cccdf7df6feb2a668282",
+        "size_in_bytes": 1020
+      },
+      {
+        "_path": "lib/python3.10/site-packages/bcrypt-4.2.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.10/site-packages/bcrypt-4.2.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "136301d172540979ddb1e4901635f783d1308f0419ba970c891fa306c29b001d",
+        "sha256_in_prefix": "136301d172540979ddb1e4901635f783d1308f0419ba970c891fa306c29b001d",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "lib/python3.10/site-packages/bcrypt-4.2.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "d055958a1c273c9fea6b15a187582a17b3cd7405e9361827560cb545ed1a23a8",
+        "sha256_in_prefix": "d055958a1c273c9fea6b15a187582a17b3cd7405e9361827560cb545ed1a23a8",
+        "size_in_bytes": 94
+      },
+      {
+        "_path": "lib/python3.10/site-packages/bcrypt-4.2.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "06447fa81cc36d2bb270ccc7584d6fcd7adf61e700cd456642ce86d82ba4a8d2",
+        "sha256_in_prefix": "06447fa81cc36d2bb270ccc7584d6fcd7adf61e700cd456642ce86d82ba4a8d2",
+        "size_in_bytes": 7
+      },
+      {
+        "_path": "lib/python3.10/site-packages/bcrypt/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "cd3b6ea86190c4383172a9b57ffd146db3d2eae0a5f96c4bf7c81260331251bc",
+        "sha256_in_prefix": "cd3b6ea86190c4383172a9b57ffd146db3d2eae0a5f96c4bf7c81260331251bc",
+        "size_in_bytes": 1000
+      },
+      {
+        "_path": "lib/python3.10/site-packages/bcrypt/__init__.pyi",
+        "path_type": "hardlink",
+        "sha256": "21350207d98f554f2c2946c940c0d41f961f41765bd4ee7917daaf29947fa3c2",
+        "sha256_in_prefix": "21350207d98f554f2c2946c940c0d41f961f41765bd4ee7917daaf29947fa3c2",
+        "size_in_bytes": 333
+      },
+      {
+        "_path": "lib/python3.10/site-packages/bcrypt/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "3f62daf19e12b67a4ac3ee506c3b49ed05d814a232712fab66120b898dd6185e",
+        "sha256_in_prefix": "3f62daf19e12b67a4ac3ee506c3b49ed05d814a232712fab66120b898dd6185e",
+        "size_in_bytes": 506
+      },
+      {
+        "_path": "lib/python3.10/site-packages/bcrypt/_bcrypt.cpython-310-darwin.so",
+        "path_type": "hardlink",
+        "sha256": "abe8cc52bcfe4dc0fff15442b01b76610d5a1c625e932ad260d81244d651fc7d",
+        "sha256_in_prefix": "abe8cc52bcfe4dc0fff15442b01b76610d5a1c625e932ad260d81244d651fc7d",
+        "size_in_bytes": 541600
+      },
+      {
+        "_path": "lib/python3.10/site-packages/bcrypt/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "06166eaf13717293864c17c8ab8777f3b9459b82886f267ff4a1d581f063446c",
+  "size": 223168,
+  "subdir": "osx-arm64",
+  "timestamp": 1732075390000,
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/bcrypt-4.2.1-py310hde4708a_0.conda",
+  "version": "4.2.1"
+}
