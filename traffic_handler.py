@@ -53,16 +53,29 @@ def sync_token(token: AppStoreToken):
     return response.status_code == 200
 
 def process_token(flow: http.HTTPFlow, host: str, ip: str):
-    token = AppStoreToken(ip,host, flow.request.headers.get('authorization'))
-    key = f"{ip}@{host}"
-    if key not in token_map or token_map[key] is None:
-        token_map[key] = token
+    token = AppStoreToken(ip,host, flow.request.headers.get('authorization')).augment()
+    
+    cur = conn.cursor()
+    cur.execute("SELECT token FROM tokens WHERE ip = ? AND host = ?", (ip, host))
+    row = cur.fetchone()
+
+    if row is None:
+        cur.execute(
+            "INSERT INTO tokens (ip, host, token, expiration) VALUES (?, ?, ?, ?)",
+            (token.ip, token.host, token.token, token.expiration)
+        )
+        conn.commit()
     else:
-        if token_map[key].token == token.token:
+        current_token = row[0]
+        if current_token == token.token:
             return
-        token_map[key].token = token
+        
+        cur.execute(
+            "UPDATE tokens SET token = ?, expiration = ? WHERE ip = ? AND host = ?",
+            (token.token, token.expiration, token.ip, token.host)
+        )
     logger.info(f'[{ip}] New Token for host {host}! Processing...')
-    sync_token(token.augment())
+    sync_token(token)
 
 def response(flow: http.HTTPFlow):
 
@@ -141,6 +154,16 @@ def setup_db(db_path='traffic.db'):
             request_body TEXT,
             response_body TEXT
         )
+    ''')
+    c.execute('''
+        CREATE TABLE IF NOT EXISTS tokens (
+            ip TEXT NOT NULL,
+            host TEXT NOT NULL,
+            token TEXT,
+            expiration NUMBER,
+            PRIMARY KEY (ip, host)
+        );
+
     ''')
     conn.commit()
     return conn

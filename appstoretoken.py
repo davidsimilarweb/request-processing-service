@@ -16,6 +16,7 @@ class AppStoreToken:
         self.expiration = expiration
 
     def augment(self):
+        """Extracts the expiration from the token itself"""
         self.expiration = jwt.decode(self.token, options={"verify_signature":False}).get('exp')
         return self
 
