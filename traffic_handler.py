@@ -26,9 +26,9 @@ KEEP_LOGS_MINUTES = int(os.getenv("KEEP_LOGS_MINUTES") or 10)
 def sync_token(token: AppStoreToken):
     headers = { 'X-Token': API_TOKEN }
     url = API_URL + 'update-tokens'
-    logging.info(f"Sending request to {url}...")
+    logging.info(f"[{token.ip}]Sending request to {url}...")
     response = requests.post(url, json=[token.json()],headers=headers)
-    logging.info(f'Got response: {response.status_code}')
+    logging.info(f'[{token.ip}]Got response: {response.status_code}')
     return response.status_code == 200
 
 def process_token(flow: http.HTTPFlow, host: str, ip: str):
@@ -40,7 +40,7 @@ def process_token(flow: http.HTTPFlow, host: str, ip: str):
         if token_map[key].token == token.token:
             return
         token_map[key].token = token
-    logging.info('New Token! Processing...')
+    logging.info(f'[{ip}] New Token for host {host}! Processing...')
     sync_token(token.augment())
 
 def response(flow: http.HTTPFlow):
@@ -91,6 +91,7 @@ def response(flow: http.HTTPFlow):
     }
 
     insert_log(conn,full_flow)
+    logging.info(f'Logged request from ip {ip} and host {host}')
     cleanup_old_entries(conn, KEEP_LOGS_MINUTES)
 
 
