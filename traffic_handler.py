@@ -86,7 +86,7 @@ def response(flow: http.HTTPFlow):
     }
 
     insert_log(conn,full_flow)
-    cleanup_old_entries(conn, )
+    cleanup_old_entries(conn, KEEP_LOGS_MINUTES)
 
 
 def setup_db(db_path='traffic.db'):
