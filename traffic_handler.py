@@ -12,13 +12,21 @@ from logging.handlers import RotatingFileHandler
 from dotenv import load_dotenv
     
 load_dotenv()
-    
 
-logging.basicConfig(
-    format='[%(levelname)s][%(asctime)s]: %(message)s',
-    level=logging.INFO,
-    handlers=[RotatingFileHandler('runtime.log',maxBytes=100*1024*1024, backupCount=2)]
-)
+logger = logging.getLogger('RPS')
+logger.setLevel(logging.DEBUG)
+file_handler = logging.FileHandler('runtime.log')
+file_handler.setLevel(logging.INFO)
+console_handler = logging.FileHandler('runtime.log')
+console_handler.setLevel(logging.DEBUG)
+formatter = logging.Formatter('[%(levelname)s][%(asctime)s]: %(message)s')
+file_handler.setFormatter(formatter)
+console_handler.setFormatter(formatter)
+logger.addHandler(file_handler)
+logger.addHandler(console_handler)
+
+logging.getLogger("mitmproxy").setLevel(logging.ERROR)
+
 
 TOKEN_EXTRACTABLE_HOSTS = [
     'amp-api-edge.apps.apple.com',
@@ -33,15 +41,15 @@ API_TOKEN = os.getenv("IOS_SDK_SERVER_TOKEN")
 KEEP_LOGS_MINUTES = int(os.getenv("KEEP_LOGS_MINUTES") or 10)
 
 if API_TOKEN == None or API_URL == None:
-    logging.error('unable to start, missing envs')
+    logger.error('unable to start, missing envs')
     exit(1)
 
 def sync_token(token: AppStoreToken):
     headers = { 'X-Token': API_TOKEN }
     url = API_URL + 'update-tokens'
-    logging.info(f"[{token.ip}]Sending request to {url}...")
+    logger.info(f"[{token.ip}]Sending request to {url}...")
     response = requests.post(url, json=[token.json()],headers=headers)
-    logging.info(f'[{token.ip}]Got response: {response.status_code}')
+    logger.info(f'[{token.ip}]Got response: {response.status_code}')
     return response.status_code == 200
 
 def process_token(flow: http.HTTPFlow, host: str, ip: str):
@@ -53,7 +61,7 @@ def process_token(flow: http.HTTPFlow, host: str, ip: str):
         if token_map[key].token == token.token:
             return
         token_map[key].token = token
-    logging.info(f'[{ip}] New Token for host {host}! Processing...')
+    logger.info(f'[{ip}] New Token for host {host}! Processing...')
     sync_token(token.augment())
 
 def response(flow: http.HTTPFlow):
@@ -104,7 +112,7 @@ def response(flow: http.HTTPFlow):
     }
 
     insert_log(conn,full_flow)
-    logging.info(f'Logged request from ip {ip} and host {host}')
+    logger.info(f'Logged request from ip {ip} and host {host}')
     cleanup_old_entries(conn, KEEP_LOGS_MINUTES)
 
 
