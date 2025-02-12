@@ -112,7 +112,7 @@ def response(flow: http.HTTPFlow):
     }
 
     insert_log(conn,full_flow)
-    logger.info(f'Logged request from ip {ip} and host {host}')
+    logger.debug(f'Logged request from ip {ip} and host {host}')
     cleanup_old_entries(conn, KEEP_LOGS_MINUTES)
 
 
