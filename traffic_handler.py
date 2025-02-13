@@ -56,6 +56,11 @@ def process_token(flow: http.HTTPFlow, host: str, ip: str):
     token = AppStoreToken(ip,host, flow.request.headers.get('authorization')).augment()
     
     cur = conn.cursor()
+    cur.execute("SELECT token FROM tokens WHERE token = ?", (token.token,))
+    row = cur.fetchone()
+    if row is not None:
+        logger.debug('Token already exists')
+        return
     cur.execute("SELECT token FROM tokens WHERE ip = ? AND host = ?", (ip, host))
     row = cur.fetchone()
 
