@@ -46,9 +46,9 @@ if API_TOKEN == None or API_URL == None:
 
 def sync_token(token: AppStoreToken):
     headers = { 'X-Token': API_TOKEN }
-    url = API_URL + 'update-tokens'
+    url = API_URL + 'add'
     logger.info(f"[{token.ip}]Sending request to {url}...")
-    response = requests.post(url, json=[token.json()],headers=headers)
+    response = requests.post(url, json=token.json(),headers=headers)
     logger.info(f'[{token.ip}]Got response: {response.status_code}')
     return response.status_code == 200
 
