@@ -32,9 +32,10 @@ TOKEN_EXTRACTABLE_HOSTS = [
     'amp-api-edge.apps.apple.com',
     'amp-api.apps.apple.com'
 ]
-SAVE_BODY_HOSTS = [
+SAVE_BODY_HOSTS = [ # Array of hosts from where to save the body, or just one entry with '*'
     'amp-api-edge.apps.apple.com',
-    'amp-api.apps.apple.com'
+    'amp-api.apps.apple.com',
+    'sf-api-token-service.itunes.apple.com'
 ]
 API_URL = os.getenv("IOS_SDK_SERVER_URL")
 API_TOKEN = os.getenv("IOS_SDK_SERVER_TOKEN")
@@ -111,7 +112,7 @@ def response(flow: http.HTTPFlow):
         "headers": dict(flow.response.headers),
     }
 
-    if host in SAVE_BODY_HOSTS:
+    if host in SAVE_BODY_HOSTS or SAVE_BODY_HOSTS[0] == '*':
         try:
             content = flow.request.get_text(strict=False) if flow.request.content else ""
         except Exception:
